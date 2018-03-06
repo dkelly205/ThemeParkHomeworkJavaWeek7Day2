@@ -18,6 +18,8 @@ public class Rollercoaster extends Ride {
         riders.clear();
     }
 
+
+
     public void addRider(Customer customer) {
         if(customer.getCash() >= getCost()) {
             if(getNumberOfRiders() < getCapacity()) {
@@ -25,4 +27,6 @@ public class Rollercoaster extends Ride {
             }
         }
     }
+
+
 }

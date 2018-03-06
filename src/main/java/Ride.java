@@ -39,7 +39,7 @@ public abstract class Ride {
     }
 
     public void addRider(Customer customer) {
-        if(getNumberOfRiders() < getCapacity()) {
+        if(eligble(customer) == true && getNumberOfRiders() < getCapacity()) {
             riders.add(customer);
         }
     }
@@ -47,4 +47,15 @@ public abstract class Ride {
     public void removeRider(Customer customer) {
         riders.remove(customer);
     }
+
+    public boolean eligble(Customer customer){
+        if(customer.getHeight() >= minHeight && customer.getAge() >= minAge){
+            return true;
+        } else {
+                return false;
+                }
+    }
+
+
+
 }

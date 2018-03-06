@@ -1,7 +1,9 @@
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class RollercoasterTest {
 
@@ -81,7 +83,19 @@ public class RollercoasterTest {
     public void testCustomerCannotBeAddedToRollercoasterUnlessTheyHaveFunds(){
         Customer customer = new Customer("Danny", 27, 1.60, 5.00);
         rollercoaster.addRider(customer);
-
     }
+
+    @Test
+    public void testCustomerIsEligble(){
+        Customer customer = new Customer("Danny", 27, 1.60, 5.00);
+        assertEquals(true, rollercoaster.eligble(customer));
+    }
+
+    @Test
+    public void testCustomerIsNotEligble(){
+        Customer customer = new Customer("Danny", 27, 1.45, 5.00);
+        assertEquals(false, rollercoaster.eligble(customer));
+    }
+
 
 }
