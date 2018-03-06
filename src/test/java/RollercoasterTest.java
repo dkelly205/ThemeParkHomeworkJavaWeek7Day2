@@ -68,14 +68,19 @@ public class RollercoasterTest {
     }
 
     @Test
-    public void testClearRollerCoaster(){
+    public void testClearRollercoaster(){
         Customer customer = new Customer("Danny", 27, 1.60, 200.00);
         for(int i = 0; i < 30; i++){
             rollercoaster.addRider(customer);
         }
         rollercoaster.emptyRollercoaster();
         assertEquals(0, rollercoaster.getNumberOfRiders());
+    }
 
+    @Test
+    public void testCustomerCannotBeAddedToRollercoasterUnlessTheyHaveFunds(){
+        Customer customer = new Customer("Danny", 27, 1.60, 5.00);
+        rollercoaster.addRider(customer);
 
     }
 

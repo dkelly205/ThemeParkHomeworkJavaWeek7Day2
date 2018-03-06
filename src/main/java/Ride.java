@@ -39,8 +39,9 @@ public abstract class Ride {
     }
 
     public void addRider(Customer customer) {
-        if(getNumberOfRiders() < getCapacity())
-        riders.add(customer);
+        if(getNumberOfRiders() < getCapacity()) {
+            riders.add(customer);
+        }
     }
 
     public void removeRider(Customer customer) {

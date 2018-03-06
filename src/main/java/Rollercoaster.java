@@ -15,4 +15,12 @@ public class Rollercoaster extends Ride {
     public void emptyRollercoaster() {
         riders.clear();
     }
+
+    public void addRider(Customer customer) {
+        if(customer.getCash() >= getCost()) {
+            if(getNumberOfRiders() < getCapacity()) {
+                riders.add(customer);
+            }
+        }
+    }
 }
