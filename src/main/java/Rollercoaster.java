@@ -32,4 +32,8 @@ public class Rollercoaster extends Ride {
     public double tillAmount() {
         return till;
     }
+
+    public void charge(){
+       till += cost;
+    }
 }
