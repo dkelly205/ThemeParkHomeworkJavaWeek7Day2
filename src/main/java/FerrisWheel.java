@@ -1,4 +1,4 @@
-public class FerrisWheel extends Ride {
+public class FerrisWheel extends Ride implements Start{
 
 
     private double till;
@@ -8,5 +8,10 @@ public class FerrisWheel extends Ride {
         super(name, minAge, minHeight, capacity);
         this.cost = cost;
         this.till = till;
+    }
+
+    @Override
+    public String start(String ride) {
+        return "Starting " + ride;
     }
 }
