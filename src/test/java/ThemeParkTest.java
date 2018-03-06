@@ -9,7 +9,7 @@ public class ThemeParkTest {
 
     @Before
     public void setUp() throws Exception {
-        themePark = new ThemePark("M&Ds", 100, 5.00);
+        themePark = new ThemePark("M&Ds", 100, 5.00, 100.00);
     }
 
     @Test
@@ -30,6 +30,18 @@ public class ThemeParkTest {
     @Test
     public void testCustomersStartsEmpty() {
         assertEquals(0, themePark.getNumberOfCustomers());
+    }
+
+    @Test
+    public void testGetCash() {
+        assertEquals(100.00, themePark.getCash(), 0.01);
+    }
+
+        @Test
+    public void testCustomerCanPayEntry() {
+        Customer customer = new Customer("Danny", 26, 1.67, 50.00);
+        themePark.charge(customer);
+        assertEquals(105.00, themePark.getCash(), 0.01);
     }
 
     //    @Test

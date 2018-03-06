@@ -6,13 +6,15 @@ public class ThemePark {
     private int capacity;
     private String name;
     private double entryFee;
+    private double cash;
     private ArrayList<Ride> rides;
     private ArrayList<Customer> customers;
 
-    public ThemePark(String name, int capacity, double entryFee) {
+    public ThemePark(String name, int capacity, double entryFee, double cash) {
         this.name = name;
         this.capacity = capacity;
         this.entryFee = entryFee;
+        this.cash = cash;
         customers = new ArrayList<>();
         rides = new ArrayList<>();
     }
@@ -32,5 +34,15 @@ public class ThemePark {
 
     public int getNumberOfCustomers() {
         return customers.size();
+    }
+
+
+    public double getCash() {
+        return cash;
+    }
+
+    public void charge(Customer customer) {
+        customer.pay(getEntryFee());
+        cash += entryFee;
     }
 }
