@@ -31,4 +31,7 @@ public class Customer {
     }
 
 
+    public void pay(double price) {
+        this.cash -= price;
+    }
 }
