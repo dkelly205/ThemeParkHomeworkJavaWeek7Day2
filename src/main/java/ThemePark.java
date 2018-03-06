@@ -41,8 +41,20 @@ public class ThemePark {
         return cash;
     }
 
-    public void charge(Customer customer) {
-        customer.pay(getEntryFee());
-        cash += entryFee;
+    public void chargeEntry(Customer customer) {
+        if (customer.getCash() >= getEntryFee()) {
+            customer.pay(getEntryFee());
+            cash += entryFee;
+        }
+    }
+
+    public void add(Customer customer) {
+        if (getNumberOfCustomers() < getCapacity() && customer.getCash() >= getEntryFee() ) {
+            chargeEntry(customer);
+            customers.add(customer);
+        }
     }
 }
+
+
+

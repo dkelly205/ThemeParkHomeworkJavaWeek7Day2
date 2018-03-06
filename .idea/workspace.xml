@@ -45,7 +45,7 @@
       <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
+            <state relative-caret-position="376">
               <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="e#339#340#0" expanded="true" />
@@ -101,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThemeParkTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThemeParkTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ThemeParkTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="231">
+              <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#311#312#0" expanded="true" />
@@ -123,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThemePark.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ThemePark.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ThemePark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-276">
-              <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="92">
+              <caret line="44" column="33" lean-forward="false" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
               <folding>
                 <element signature="e#550#551#0" expanded="true" />
                 <element signature="e#581#582#0" expanded="true" />
@@ -531,8 +531,8 @@
         <option value="$PROJECT_DIR$/src/test/java/RollercoasterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rollercoaster.java" />
         <option value="$PROJECT_DIR$/src/main/java/FerrisWheel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ThemePark.java" />
         <option value="$PROJECT_DIR$/src/test/java/ThemeParkTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ThemePark.java" />
       </list>
     </option>
   </component>
@@ -777,34 +777,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 22h 46m 51s.xml">
+    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 23h 33m 08s.xml">
       <configuration name="All in ThemeParkHomework_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 22h 47m 01s.xml">
+    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 23h 33m 15s.xml">
       <configuration name="All in ThemeParkHomework_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 23h 00m 29s.xml">
+    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 23h 33m 55s.xml">
       <configuration name="All in ThemeParkHomework_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 23h 06m 24s.xml">
+    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 23h 34m 04s.xml">
       <configuration name="All in ThemeParkHomework_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 23h 07m 10s.xml">
+    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 23h 34m 19s.xml">
       <configuration name="All in ThemeParkHomework_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 23h 11m 34s.xml">
+    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 23h 34m 45s.xml">
       <configuration name="All in ThemeParkHomework_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 23h 13m 15s.xml">
+    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 23h 36m 27s.xml">
       <configuration name="All in ThemeParkHomework_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 23h 14m 03s.xml">
+    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 23h 36m 48s.xml">
       <configuration name="All in ThemeParkHomework_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 23h 15m 29s.xml">
+    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 23h 37m 12s.xml">
       <configuration name="All in ThemeParkHomework_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 23h 16m 23s.xml">
+    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 23h 37m 31s.xml">
       <configuration name="All in ThemeParkHomework_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -917,58 +917,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Start.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RollercoasterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="119" column="22" lean-forward="false" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#2758#2759#0" expanded="true" />
-            <element signature="e#2828#2829#0" expanded="true" />
-            <element signature="e#3167#3168#0" expanded="true" />
-            <element signature="e#3261#3262#0" expanded="true" />
-            <element signature="e#3303#3304#0" expanded="true" />
-            <element signature="e#3396#3397#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1030,29 +983,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThemePark.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="376">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RollercoasterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="119" column="22" lean-forward="false" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#2758#2759#0" expanded="true" />
+            <element signature="e#2828#2829#0" expanded="true" />
+            <element signature="e#3167#3168#0" expanded="true" />
+            <element signature="e#3261#3262#0" expanded="true" />
+            <element signature="e#3303#3304#0" expanded="true" />
+            <element signature="e#3396#3397#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ThemeParkTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="231">
+          <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#311#312#0" expanded="true" />
@@ -1065,6 +1046,25 @@
             <element signature="e#699#700#0" expanded="true" />
             <element signature="e#742#743#0" expanded="true" />
             <element signature="e#805#806#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThemePark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="44" column="33" lean-forward="false" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+          <folding>
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
           </folding>
         </state>
       </provider>

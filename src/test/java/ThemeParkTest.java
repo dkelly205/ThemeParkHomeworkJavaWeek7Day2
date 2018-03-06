@@ -37,15 +37,21 @@ public class ThemeParkTest {
         assertEquals(100.00, themePark.getCash(), 0.01);
     }
 
-        @Test
+    @Test
     public void testCustomerCanPayEntry() {
-        Customer customer = new Customer("Danny", 26, 1.67, 50.00);
-        themePark.charge(customer);
+        Customer customer = new Customer("Danny", 26, 1.67, 100.00);
+        themePark.chargeEntry(customer);
         assertEquals(105.00, themePark.getCash(), 0.01);
+        assertEquals(95.00, customer.getCash(), 0.01);
     }
 
-    //    @Test
-//    public void testAddCustoemr(){
-//        assertEquals(1, );
-//    }
+    @Test
+    public void testAddCustomer(){
+            Customer customer = new Customer("Danny", 26, 1.67, 5.00);
+            themePark.add(customer);
+            assertEquals(1, themePark.getNumberOfCustomers());
+            assertEquals(105.00, themePark.getCash(), 0.01);
+            assertEquals(0.00, customer.getCash(), 0.01);
+    }
+
 }
