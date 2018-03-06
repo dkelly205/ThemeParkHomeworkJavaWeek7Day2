@@ -7,6 +7,7 @@ public abstract class Ride {
     private double minHeight;
     private int capacity;
     private ArrayList<Customer> queue;
+    private ArrayList<Customer> riders;
 
     public Ride(String name, int minAge, double minHeight, int capacity) {
         this.name = name;
@@ -14,6 +15,7 @@ public abstract class Ride {
         this.minHeight = minHeight;
         this.capacity = capacity;
         this.queue = new ArrayList<>();
+        this.riders = new ArrayList<>();
     }
 
     public String getName() {
@@ -30,5 +32,9 @@ public abstract class Ride {
 
     public int getCapacity() {
         return capacity;
+    }
+
+    public int getNumberOfRiders() {
+        return riders.size();
     }
 }

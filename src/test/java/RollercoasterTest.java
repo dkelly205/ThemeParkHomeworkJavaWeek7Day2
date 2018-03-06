@@ -36,4 +36,9 @@ public class RollercoasterTest {
     public void testPrice(){
         assertEquals(5.00, rollercoaster.getCost(), 0.01);
     }
+
+    @Test
+    public void testRidersStartsEmpty(){
+        assertEquals(0, rollercoaster.getNumberOfRiders());
+    }
 }
