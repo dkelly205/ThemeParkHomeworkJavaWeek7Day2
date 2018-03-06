@@ -64,8 +64,8 @@
       <file leaf-file-name="Ride.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Ride.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="234">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="e#561#562#0" expanded="true" />
                 <element signature="e#588#589#0" expanded="true" />
@@ -77,6 +77,8 @@
                 <element signature="e#778#779#0" expanded="true" />
                 <element signature="e#816#817#0" expanded="true" />
                 <element signature="e#852#853#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,22 +87,22 @@
       <file leaf-file-name="RollercoasterTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RollercoasterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="41" column="59" lean-forward="true" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+            <state relative-caret-position="270">
+              <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#945#946#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -676,6 +678,9 @@
     <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 19h 54m 04s.xml">
       <configuration name="All in ThemeParkHomework_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_ThemeParkHomework_test - 2018.03.06 at 20h 02m 48s.xml">
+      <configuration name="All in ThemeParkHomework_test" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="CustomerTest - 2018.03.06 at 16h 33m 22s.xml">
       <configuration name="CustomerTest" configurationId="JUnit" />
     </history-entry>
@@ -742,6 +747,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rollercoaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#305#306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ride.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -777,53 +813,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Ride.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rollercoaster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#305#306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RollercoasterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="41" column="59" lean-forward="true" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+        <state relative-caret-position="270">
+          <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
           </folding>
         </state>
       </provider>

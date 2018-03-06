@@ -7,6 +7,7 @@ public class RollercoasterTest {
 
     Rollercoaster rollercoaster;
 
+
     @Before
     public void setUp() throws Exception {
             rollercoaster = new Rollercoaster("Tornado", 12, 1.50, 24, 5.00);
@@ -41,4 +42,12 @@ public class RollercoasterTest {
     public void testRidersStartsEmpty(){
         assertEquals(0, rollercoaster.getNumberOfRiders());
     }
+
+    @Test
+    public void testCanAddRider(){
+        Customer customer = new Customer("Danny", 27, 1.60, 200.00);
+        rollercoaster.addRider(customer);
+        assertEquals(1, rollercoaster.getNumberOfRiders());
+    }
+
 }

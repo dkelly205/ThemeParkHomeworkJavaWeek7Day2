@@ -37,4 +37,8 @@ public abstract class Ride {
     public int getNumberOfRiders() {
         return riders.size();
     }
+
+    public void addRider(Customer customer) {
+        riders.add(customer);
+    }
 }
