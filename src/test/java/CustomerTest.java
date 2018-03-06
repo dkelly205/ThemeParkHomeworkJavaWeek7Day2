@@ -9,7 +9,7 @@ public class CustomerTest {
 
     @Before
     public void setUp() throws Exception {
-        Customer customer = new Customer("Danny", 27, 1.60, 200.00);
+        customer = new Customer("Danny", 27, 1.60, 200.00, Band.GREEN);
     }
 
     @Test
