@@ -5,15 +5,12 @@ public class Customer {
     private double height;
     private int age;
     private String name;
-    private Band band;
 
-    public Customer(String name, int age, double height, double cash, Band band) {
+    public Customer(String name, int age, double height, double cash) {
         this.name = name;
         this.age = age;
         this.height = height;
         this.cash = cash;
-        this.band = band;
-
     }
 
 
@@ -33,7 +30,5 @@ public class Customer {
         return cash;
     }
 
-    public Band getBand() {
-        return band;
-    }
+
 }

@@ -32,8 +32,4 @@ public class CustomerTest {
         assertEquals(200.00, customer.getCash(), 0.01);
     }
 
-    @Test
-    public void testBand(){
-        assertEquals(Band.GREEN, customer.getBand());
-    }
 }
