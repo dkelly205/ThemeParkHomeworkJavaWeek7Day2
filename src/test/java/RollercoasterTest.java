@@ -115,5 +115,10 @@ public class RollercoasterTest {
         assertEquals("Starting Tornado", rollercoaster.start(rollercoaster.getName()));
     }
 
+    @Test
+    public void testCanStop(){
+        assertEquals("Stopping Tornado", rollercoaster.stop(rollercoaster.getName()));
+    }
+
 
 }
