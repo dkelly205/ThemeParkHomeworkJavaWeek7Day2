@@ -15,4 +15,15 @@ public class ThemePark {
         this.entryFee = entryFee;
     }
 
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getEntryFee() {
+        return entryFee;
+    }
 }
