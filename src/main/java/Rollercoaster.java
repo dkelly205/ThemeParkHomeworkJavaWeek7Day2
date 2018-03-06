@@ -33,7 +33,8 @@ public class Rollercoaster extends Ride {
         return till;
     }
 
-    public void charge(){
-       till += cost;
+    public void charge(Customer customer){
+        customer.pay(cost);
+        till += cost;
     }
 }

@@ -104,8 +104,10 @@ public class RollercoasterTest {
 
     @Test
     public void testTillIncreasesWhenCustomerPays(){
-
+        Customer customer = new Customer("Danny", 27, 1.45, 10.00);
+        rollercoaster.charge(customer);
         assertEquals(105.00, rollercoaster.tillAmount(), 0.01);
+        assertEquals(5.00, customer.getCash(), 0.01);
     }
 
 
