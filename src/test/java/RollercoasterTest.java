@@ -50,4 +50,14 @@ public class RollercoasterTest {
         assertEquals(1, rollercoaster.getNumberOfRiders());
     }
 
+    @Test
+    public void testCannotAddMoreRidersThanCapacity(){
+        Customer customer = new Customer("Danny", 27, 1.60, 200.00);
+        for(int i = 0; i < 30; i++){
+            rollercoaster.addRider(customer);
+        }
+        assertEquals(24, rollercoaster.getNumberOfRiders());
+
+    }
+
 }
