@@ -1,4 +1,4 @@
-public class Rollercoaster extends Ride {
+public class Rollercoaster extends Ride implements Start {
 
     private double cost;
     private double till;
@@ -34,5 +34,10 @@ public class Rollercoaster extends Ride {
                 charge(customer);
             }
         }
+    }
+
+    @Override
+    public String start(String ride) {
+        return "Starting " + ride;
     }
 }

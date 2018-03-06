@@ -110,5 +110,10 @@ public class RollercoasterTest {
         assertEquals(5.00, customer.getCash(), 0.01);
     }
 
+    @Test
+    public void testCanStart(){
+        assertEquals("Starting Tornado", rollercoaster.start(rollercoaster.getName()));
+    }
+
 
 }
