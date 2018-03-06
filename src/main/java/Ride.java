@@ -42,4 +42,8 @@ public abstract class Ride {
         if(getNumberOfRiders() < getCapacity())
         riders.add(customer);
     }
+
+    public void removeRider(Customer customer) {
+        riders.remove(customer);
+    }
 }

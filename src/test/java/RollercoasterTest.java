@@ -57,7 +57,14 @@ public class RollercoasterTest {
             rollercoaster.addRider(customer);
         }
         assertEquals(24, rollercoaster.getNumberOfRiders());
+    }
 
+    @Test
+    public void testRemoveRider(){
+        Customer customer = new Customer("Danny", 27, 1.60, 200.00);
+        rollercoaster.addRider(customer);
+        rollercoaster.removeRider(customer);
+        assertEquals(0, rollercoaster.getNumberOfRiders());
     }
 
 }
