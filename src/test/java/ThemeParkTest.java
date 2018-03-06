@@ -9,7 +9,7 @@ public class ThemeParkTest {
 
     @Before
     public void setUp() throws Exception {
-        themePark = new ThemePark("M&Ds", 100, 5.00, 100.00);
+        themePark = new ThemePark("M&Ds", 50, 5.00, 100.00);
     }
 
     @Test
@@ -19,7 +19,7 @@ public class ThemeParkTest {
 
     @Test
     public void testCapacity() {
-        assertEquals(100, themePark.getCapacity());
+        assertEquals(50, themePark.getCapacity());
     }
 
     @Test
@@ -52,6 +52,16 @@ public class ThemeParkTest {
             assertEquals(1, themePark.getNumberOfCustomers());
             assertEquals(105.00, themePark.getCash(), 0.01);
             assertEquals(0.00, customer.getCash(), 0.01);
+    }
+
+    @Test
+    public void testCannotAddMoreCustomersThanCapacity(){
+
+        for(int i = 0; i < 54 ; i++){
+            Customer customer = new Customer("Danny", 26, 1.67, 5.00);
+            themePark.add(customer);
+        }
+        assertEquals(50, themePark.getNumberOfCustomers());
     }
 
 }
