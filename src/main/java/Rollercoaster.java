@@ -11,4 +11,8 @@ public class Rollercoaster extends Ride {
     public double getCost() {
         return cost;
     }
+
+    public void emptyRollercoaster() {
+        riders.clear();
+    }
 }

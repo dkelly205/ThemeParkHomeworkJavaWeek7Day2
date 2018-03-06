@@ -7,7 +7,7 @@ public abstract class Ride {
     private double minHeight;
     private int capacity;
     private ArrayList<Customer> queue;
-    private ArrayList<Customer> riders;
+    public ArrayList<Customer> riders; //do you need to make that public?
 
     public Ride(String name, int minAge, double minHeight, int capacity) {
         this.name = name;

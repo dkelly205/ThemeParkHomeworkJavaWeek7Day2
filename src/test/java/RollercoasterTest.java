@@ -67,4 +67,16 @@ public class RollercoasterTest {
         assertEquals(0, rollercoaster.getNumberOfRiders());
     }
 
+    @Test
+    public void testClearRollerCoaster(){
+        Customer customer = new Customer("Danny", 27, 1.60, 200.00);
+        for(int i = 0; i < 30; i++){
+            rollercoaster.addRider(customer);
+        }
+        rollercoaster.emptyRollercoaster();
+        assertEquals(0, rollercoaster.getNumberOfRiders());
+
+
+    }
+
 }
