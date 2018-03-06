@@ -32,4 +32,8 @@ public class Customer {
     public double getCash() {
         return cash;
     }
+
+    public Band getBand() {
+        return band;
+    }
 }

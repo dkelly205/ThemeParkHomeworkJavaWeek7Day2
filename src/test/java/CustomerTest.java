@@ -24,11 +24,16 @@ public class CustomerTest {
 
     @Test
     public void testHeight(){
-        assertEquals(1.60, customer.getHeight());
+        assertEquals(1.60, customer.getHeight(), 0.01);
     }
 
     @Test
     public void testCash(){
-        assertEquals(200.00, customer.getCash());
+        assertEquals(200.00, customer.getCash(), 0.01);
+    }
+
+    @Test
+    public void testBand(){
+        assertEquals(Band.GREEN, customer.getBand());
     }
 }
