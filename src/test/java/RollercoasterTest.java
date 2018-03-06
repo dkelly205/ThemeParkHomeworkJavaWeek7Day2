@@ -12,7 +12,7 @@ public class RollercoasterTest {
 
     @Before
     public void setUp() throws Exception {
-            rollercoaster = new Rollercoaster("Tornado", 12, 1.50, 24, 5.00);
+            rollercoaster = new Rollercoaster("Tornado", 12, 1.50, 24, 5.00, 100.00);
     }
 
     @Test
@@ -95,6 +95,11 @@ public class RollercoasterTest {
     public void testCustomerIsNotEligble(){
         Customer customer = new Customer("Danny", 27, 1.45, 5.00);
         assertEquals(false, rollercoaster.eligble(customer));
+    }
+
+    @Test
+    public void testTillAmount(){
+        assertEquals(100.00, rollercoaster.tillAmount(), 0.01);
     }
 
 

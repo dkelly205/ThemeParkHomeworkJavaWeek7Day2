@@ -3,10 +3,10 @@ public class Rollercoaster extends Ride {
     private double cost;
     private double till;
 
-    public Rollercoaster(String name, int minAge, double minHeight, int capacity, double cost) {
+    public Rollercoaster(String name, int minAge, double minHeight, int capacity, double cost, double till) {
         super(name, minAge, minHeight, capacity);
         this.cost = cost;
-        this.till = 0.00;
+        this.till = till;
 
     }
 
@@ -29,4 +29,7 @@ public class Rollercoaster extends Ride {
     }
 
 
+    public double tillAmount() {
+        return till;
+    }
 }
