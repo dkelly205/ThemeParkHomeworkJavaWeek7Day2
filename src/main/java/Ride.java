@@ -16,5 +16,19 @@ public abstract class Ride {
         this.queue = new ArrayList<>();
     }
 
+    public String getName() {
+        return name;
+    }
 
+    public int getMinAge() {
+        return minAge;
+    }
+
+    public double getMinHeight() {
+        return minHeight;
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
 }
