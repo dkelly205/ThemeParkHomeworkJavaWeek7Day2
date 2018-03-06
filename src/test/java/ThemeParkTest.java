@@ -26,4 +26,14 @@ public class ThemeParkTest {
     public void testEntryFee(){
         assertEquals(5.00, themePark.getEntryFee(), 0.01);
     }
+
+    @Test
+    public void testCustomersStartsEmpty() {
+        assertEquals(0, themePark.getNumberOfCustomers());
+    }
+
+    //    @Test
+//    public void testAddCustoemr(){
+//        assertEquals(1, );
+//    }
 }

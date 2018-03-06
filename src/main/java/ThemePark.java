@@ -13,6 +13,8 @@ public class ThemePark {
         this.name = name;
         this.capacity = capacity;
         this.entryFee = entryFee;
+        customers = new ArrayList<>();
+        rides = new ArrayList<>();
     }
 
     public int getCapacity() {
@@ -25,5 +27,10 @@ public class ThemePark {
 
     public double getEntryFee() {
         return entryFee;
+    }
+
+
+    public int getNumberOfCustomers() {
+        return customers.size();
     }
 }
