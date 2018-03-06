@@ -9,7 +9,7 @@ public class CustomerTest {
 
     @Before
     public void setUp() throws Exception {
-        customer = new Customer("Danny", 27, 1.60, 200.00, Band.GREEN);
+        customer = new Customer("Danny", 27, 1.60, 200.00);
     }
 
     @Test
@@ -31,5 +31,7 @@ public class CustomerTest {
     public void testCash(){
         assertEquals(200.00, customer.getCash(), 0.01);
     }
+
+
 
 }
