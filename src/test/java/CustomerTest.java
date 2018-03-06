@@ -16,4 +16,19 @@ public class CustomerTest {
     public void testName(){
         assertEquals("Danny", customer.getName());
     }
+
+    @Test
+    public void testAge(){
+        assertEquals(27, customer.getAge());
+    }
+
+    @Test
+    public void testHeight(){
+        assertEquals(1.60, customer.getHeight());
+    }
+
+    @Test
+    public void testCash(){
+        assertEquals(200.00, customer.getCash());
+    }
 }

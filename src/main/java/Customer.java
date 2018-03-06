@@ -20,4 +20,16 @@ public class Customer {
     public String getName() {
         return name;
     }
+
+    public int getAge() {
+        return age;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public double getCash() {
+        return cash;
+    }
 }
