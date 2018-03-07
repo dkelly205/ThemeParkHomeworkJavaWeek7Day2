@@ -56,12 +56,12 @@ public class ThemeParkTest {
 
     @Test
     public void testCannotAddMoreCustomersThanCapacity(){
-
         for(int i = 0; i < 54 ; i++){
             Customer customer = new Customer("Danny", 26, 1.67, 5.00);
             themePark.add(customer);
         }
         assertEquals(50, themePark.getNumberOfCustomers());
     }
+
 
 }

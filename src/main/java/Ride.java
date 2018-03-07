@@ -6,15 +6,13 @@ public abstract class Ride {
     private int minAge;
     private double minHeight;
     private int capacity;
-    private ArrayList<Customer> queue;
-    public ArrayList<Customer> riders; //do you need to make that public?
+    public ArrayList<Customer> riders; //do you need to make that public?  //needs a getter to allow a child class to access it!!
 
     public Ride(String name, int minAge, double minHeight, int capacity) {
         this.name = name;
         this.minAge = minAge;
         this.minHeight = minHeight;
         this.capacity = capacity;
-        this.queue = new ArrayList<>();
         this.riders = new ArrayList<>();
     }
 
@@ -57,5 +55,9 @@ public abstract class Ride {
     }
 
 
+    //getter for arraylist - -read comments above in properties
+    public ArrayList<Customer> getRiders() {
+        return new ArrayList<Customer>(this.riders);
+    }
 
 }

@@ -1,4 +1,4 @@
-public class FerrisWheel extends Ride implements Start, Stop{
+public class FerrisWheel extends Ride implements IStart, IStop {
 
 
     private double till;

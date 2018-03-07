@@ -1,4 +1,4 @@
-public class Rollercoaster extends Ride implements Start, Stop {
+public class Rollercoaster extends Ride implements IStart, IStop {
 
     private double cost;
     private double till;
